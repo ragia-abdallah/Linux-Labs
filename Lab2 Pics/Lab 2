@@ -1,0 +1,25 @@
+17:
+
+1. Copy a directory:
+source directory: read
+target parent directory: write & execute
+
+2. Copy a file:
+source file: read
+target parent directory: write & execute
+
+3. Delete a file:
+file: none
+parent directory: write & execute
+
+4. Change to a directory: execute
+
+5. List a directory content: read
+
+6. View a file content: read
+
+7. Modify a file content: write (should have read to guarantee integrity and not overwrite content)
+
+19: 
+x for directory: (granted by default) allows accessing directories
+x for file: (devied by default) allows using executable files (commands)
